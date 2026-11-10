@@ -1,0 +1,14 @@
+{
+  "name": "kairo-broken-build",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A repo that Kairo detects fine but can't build: its dependency doesn't exist on npm",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "kairo-package-that-does-not-exist-9f3c1": "1.0.0"
+  }
+}
